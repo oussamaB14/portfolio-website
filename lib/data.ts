@@ -6,11 +6,9 @@ import { DiAngularSimple } from "react-icons/di";
 import { SiFlutter } from "react-icons/si";
 import { SiAdobeillustrator } from "react-icons/si";
 
-
 import AskytImg from "@/public/Asky.png";
 import WaslImg from "@/public/Wasl.png";
 import TataouineImg from "@/public/tataouine1.png";
-
 
 export const links = [
   {
@@ -43,26 +41,25 @@ export const experiencesData = [
   {
     title: "Trainee-Internship",
     location: "TATA IT",
-    description:
-      "Development of IT data center website.",
+    description: "Development of IT data center website, The internship goal was building a web application with Angular ,Django and PostgreSQL ",
     icon: React.createElement(DiAngularSimple),
     date: "2021",
+  },
+  {
+    title: "Graphic Designer",
+    location: "AIESEC",
+    description:
+      "Part-time position as marketing and graphic designer in the marketing department of the AIESEC association",
+    icon: React.createElement(SiAdobeillustrator),
+    date: "2021 - 2022",
   },
   {
     title: "Trainee-Internship",
     location: "Tecyom Digital Solution",
     description:
-      "Development of a mobile application for an announcements website.",
+      "Development of a mobile application for an announcements website with Flutter and Firebase",
     icon: React.createElement(SiFlutter),
     date: "2023",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
   },
 ] as const;
 
@@ -73,6 +70,7 @@ export const projectsData = [
       "mobile education platform dedicated for universities (forum app) .",
     tags: ["Flutter", "Firebase", "Dart"],
     imageUrl: AskytImg,
+    href:"https://github.com/oussamaB14/asky",
   },
   {
     title: "Wasl",
@@ -80,13 +78,14 @@ export const projectsData = [
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Spring Boot", "Mysql"],
     imageUrl: WaslImg,
+    href:"https://github.com/belhajManel/wasl",
   },
   {
     title: "Tataouine Brand Identity",
-    description:
-      "A Brand Identity Project representing the city of Tataouine ",
+    description: "A Brand Identity Project representing the city of Tataouine ",
     tags: ["Adobe Illustrator", "Adobe Photoshop"],
     imageUrl: TataouineImg,
+    href:"https://www.behance.net/gallery/199169893/Tataouine",
   },
 ] as const;
 
@@ -98,13 +97,14 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "Flutter",
+  "Spring Boot",
   "Git",
   "Tailwind",
-  "Flutter",
   "MongoDB",
   "Firebase",
   "Express",
   "PostgreSQL",
   "Python",
-  "Graphic Design"
+  "Graphic Design",
 ] as const;
