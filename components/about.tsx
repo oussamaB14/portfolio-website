@@ -39,10 +39,11 @@ export default function About() {
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
         video games, watching movies. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
+        <span className="font-medium">learning new things</span>.
+        {/* I am currently
         learning about{" "}
         <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        learning how to play the guitar. */}
       </p>
     </motion.section>
   );
