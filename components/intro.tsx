@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaBehanceSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
+import { FaSquareGitlab } from "react-icons/fa6";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import myImg from "@/public/myimg.jpg";
 
@@ -67,8 +68,9 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Oussama.</span> I'm a{" "}
         <span className="font-bold">Software engineering student</span> ,{" "}
         {/* <span className="font-bold">8 years</span> of experience. I enjoy */}
-        I enjoy building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">Nest.js</span>.
+        I enjoy building <span className="italic">sites & apps</span>. My focus
+        is <span className="underline">Nest.js</span>. Currently I'm searching
+        for an Internship
       </motion.h1>
 
       <motion.div
@@ -121,6 +123,13 @@ export default function Intro() {
           target="_blank"
         >
           <FaBehanceSquare />
+        </a>
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://gitlab.com/oussamaboufari"
+          target="_blank"
+        >
+          <FaSquareGitlab />
         </a>
       </motion.div>
     </section>
