@@ -61,6 +61,14 @@ export const experiencesData = [
     icon: React.createElement(SiFlutter),
     date: "2023",
   },
+  {
+    title: "Trainee-Internship",
+    location: "CloudiaSys",
+    description:
+      "Working on Cloudiasys website to enhance the user interface and adding features to the website, The Intern goal was building a web application with Angular ,Nodejs and MySQL ",
+    icon: React.createElement(DiAngularSimple),
+    date: "2024",
+  },
 ] as const;
 
 export const projectsData = [

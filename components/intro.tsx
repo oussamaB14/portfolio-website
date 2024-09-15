@@ -69,7 +69,7 @@ export default function Intro() {
         <span className="font-bold">Software engineering student</span> ,{" "}
         {/* <span className="font-bold">8 years</span> of experience. I enjoy */}
         I enjoy building <span className="italic">sites & apps</span>. My focus
-        is <span className="underline">Nest.js</span>. Currently I'm searching
+        is <span className="underline">React.js</span>. Currently I'm searching
         for an Internship
       </motion.h1>
 
