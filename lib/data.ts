@@ -9,6 +9,7 @@ import { SiAdobeillustrator } from "react-icons/si";
 import AskytImg from "@/public/Asky.png";
 import WaslImg from "@/public/Wasl.png";
 import TataouineImg from "@/public/tataouine1.png";
+import DevConnectImg from "@/public/dev-connect.png";
 
 export const links = [
   {
@@ -41,7 +42,8 @@ export const experiencesData = [
   {
     title: "Trainee-Internship",
     location: "TATA IT",
-    description: "Development of IT data center website, The internship goal was building a web application with Angular ,Django and PostgreSQL ",
+    description:
+      "Development of IT data center website, The internship goal was building a web application with Angular ,Django and PostgreSQL ",
     icon: React.createElement(DiAngularSimple),
     date: "2021",
   },
@@ -78,7 +80,7 @@ export const projectsData = [
       "mobile education platform dedicated for universities (forum app) .",
     tags: ["Flutter", "Firebase", "Dart"],
     imageUrl: AskytImg,
-    href:"https://github.com/oussamaB14/asky",
+    href: "https://github.com/oussamaB14/asky",
   },
   {
     title: "Wasl",
@@ -86,14 +88,22 @@ export const projectsData = [
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Spring Boot", "Mysql"],
     imageUrl: WaslImg,
-    href:"https://github.com/belhajManel/wasl",
+    href: "https://github.com/belhajManel/wasl",
+  },
+  {
+    title: "Dev Connect",
+    description:
+      "A full-stack web application built with React and NestJS, designed to be a platform where developers can share projects, connect with others, and learn from each other's experiences. ",
+    tags: ["React", "TypeScript", "Nest js", "Mango DB", "Tailwind Css"],
+    imageUrl: DevConnectImg,
+    href: "https://dev-connect-beta.vercel.app/",
   },
   {
     title: "Tataouine Brand Identity",
     description: "A Brand Identity Project representing the city of Tataouine ",
     tags: ["Adobe Illustrator", "Adobe Photoshop"],
     imageUrl: TataouineImg,
-    href:"https://www.behance.net/gallery/199169893/Tataouine",
+    href: "https://www.behance.net/gallery/199169893/Tataouine",
   },
 ] as const;
 
