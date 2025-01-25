@@ -10,6 +10,7 @@ import AskytImg from "@/public/Asky.png";
 import WaslImg from "@/public/Wasl.png";
 import TataouineImg from "@/public/tataouine1.png";
 import DevConnectImg from "@/public/dev-connect.png";
+import AnimeVerseImg from "@/public/animeverse.png";
 
 export const links = [
   {
@@ -99,6 +100,14 @@ export const projectsData = [
     href: "https://dev-connect-beta.vercel.app/",
   },
   {
+    title: "Animeverse",
+    description:
+      "Mobile application designed for manga readers and anime watchers. It allows users to search, read mangas, and watch anime episodes on a centralized platform. ",
+    tags: ["Flutter", "Firebase", "Dart" ,"Consumet-api"],
+    imageUrl: AnimeVerseImg,
+    href: "https://github.com/oussamaB14/AnimeVerse/",
+  },
+  {
     title: "Tataouine Brand Identity",
     description: "A Brand Identity Project representing the city of Tataouine ",
     tags: ["Adobe Illustrator", "Adobe Photoshop"],
@@ -120,6 +129,7 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "MongoDB",
+  "Angular",
   "Firebase",
   "Express",
   "PostgreSQL",
